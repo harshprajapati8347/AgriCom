@@ -1,0 +1,53 @@
+:root{
+    --primary: #003d2b;
+    --primary-hover: #00704F;
+    --primary-transparent:#c5f0e583;
+    --secondary:#3D0012;
+    --secondary-hover:#700021;
+    --lightest-green: #ecfdf8;
+
+    --success: #22bb33;
+    --success-hover:#36DA48;
+    --danger: #BB2124;
+    --danger-hover:#DB3437;
+
+    --white: #FFFFFF;
+    --white-gray: #f7f7f7;
+
+    --grey-lightest:#e4e4e4;
+    --grey-lighter:#c5c5c5;
+    --grey-dark:#727272;
+    --darkslate-grey: #333333;
+
+    --snackbar-retry-bg: #0080003a;
+    --snackbar-retry:  #98c298;
+    --snackbar-retry-hover-bg: #0080008c;
+ 
+    --radius-sm: 5px;
+    --radius-md: 10px;
+    --radius-lg: 15px;
+    --radius-rounded: 999px;
+  
+    --lato-font:'Lato', sans-serif;
+    --acme-font: 'Acme', sans-serif;
+    --roboto-font: 'Roboto', sans-serif;
+
+    --wgt-lighter: 200;
+    --wgt-light: 300;
+    --wgt-regular: 400;
+    --wgt-bold-semi: 600;
+    --wgt-bold: 700;
+    --wgt-bold-dark: 900;
+
+    --size-xsm: 0.5rem;
+    --size-sm:  1rem;
+    --size-md:  1.5rem;
+    --size-lg:  2rem;
+    --size-xlg: 2.5rem;
+    --size-xxlg: 4rem;
+
+    --box-shadow-simple: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    --box-shadow-primary: var(--primary-hover) 0px 5px 15px;
+
+   
+}

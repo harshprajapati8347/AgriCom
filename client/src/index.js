@@ -1,17 +1,34 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import { makeServer } from "./server";
+import { BrowserRouter as Router } from "react-router-dom";
+import { ProductProvider } from "./context/product-context";
+import { CartProvider } from "./context/cart-context";
+import { WishListProvider } from "./context/wishlist-context";
+import { AuthProvider } from "./context/auth-context";
+import { AddressProvider } from "./context/address-context";
+import "./index.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+// Call make Server
+makeServer();
+
+ReactDOM.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <Router>
+      <AuthProvider>
+        <WishListProvider>
+          <CartProvider>
+            <ProductProvider>
+              <AddressProvider>
+                <App />
+              </AddressProvider>
+            </ProductProvider>
+          </CartProvider>
+        </WishListProvider>
+      </AuthProvider>
+    </Router>
+    ,
+  </React.StrictMode>,
+  document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

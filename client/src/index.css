@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* Importing Base Classes */
+@import url(./styles/custom/base/reset.css);
+@import url(./styles/custom/base/typography.css);
+@import url(./styles/custom/base/spacing.css);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* Importing Layout Class */
+@import url(./styles/custom/layout/flex.css);
+
+/* Importing Utils Classes */
+@import url(./styles/custom/utilities/variables.css);
+
+/* Importing Components Classes */
+@import url(./styles/custom/components/avatar.css);
+@import url(./styles/custom/components/badge.css);
+@import url(./styles/custom/components/alert.css);
+@import url(./styles/custom/components/button.css);
+@import url(./styles/custom/components/cards.css);
+@import url(./styles/custom/components/image.css);
+@import url(./styles/custom/components/input.css);
+@import url(./styles/custom/components/text-utils.css);
+@import url(./styles/custom/components/lists.css);
+@import url(./styles/custom/components/modal.css);
+@import url(./styles/custom/components/navigation.css);
+@import url(./styles/custom/components/grid.css);
+@import url(./styles/custom/components/ratings.css);
+@import url(./styles/custom/components/snackbar.css);
+
+/* Importing Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* Importing Icons */
+
+/* Google-Icons link */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+/* Font Awesome Link */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+
+
