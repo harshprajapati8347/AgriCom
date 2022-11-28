@@ -1,56 +1,70 @@
-<div align="center">
-  <img src="https://res.cloudinary.com/dvuh4fz9d/image/upload/v1657795778/shop_cuojbm.ico" height="180" width="220" alt="logo"/>
+# Getting Started with Create React App
 
-# 🌱 AgriCom 🛒
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### An E-Commerce App for Buying Agricultural-Products.
+## Available Scripts
 
- </div>
+In the project directory, you can run:
 
----
+### `yarn start`
 
-## About AgriCom
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- AgriCom is a platform where one can easily buy Agricuture growth products online.
-- In this App, users can see products based on different categories such as Fertilizers, Pesticides, Farming Tools, Seeds, Safety Wearables, Electronic Devices, etc.
-- Additionally we have implemented various features such as add products to cart, add to wishlist, address management, order summary payment Integration, etc.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Live Deployment
+### `yarn test`
 
----
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Features
+### `yarn build`
 
-- [Home Page]() (public page), with navigation bar, header image, and various categories of products. User can easily view products based on selected category, add to cart, wishlist etc.
-- [Products Listing Page]() (public page), with various categories which Filters Products based on Price Range of 200 to 2000 Rupees, Filter By Product Categories,Filter Products by Ratings, Sort Products by Price: Low to High & High to Low. User can also easily add products to both Wishlist and Cart by clicking buttons on each product card.
-- [Single Product Page](), (public page) - User can add product to cart, add to wishlist, view detailed product description along with Product Details.
-- Cart Page, (private page), consists of all products added in cart. User can increase/decrease the product quantity and see the cart price summary details and go to checkout page. Cart Page will only open if the user is logged In.
-- Checkout Page - User has to select the saved address or add/update address & check the price summary. User can then click on proceed to payment.
-- Wishlist Page (private page), consists of all products marked as favourite, user can also add products to cart and remove from wishlist.
-- [404 Page]() - Added 404 Page Not Found.
-- Profile Page (private page) - Profile Page shows name, email of logged in user and Quick Links for private pages, and saved addresses. User can also add new address, update & delete address.
-- Added Responsiveness for nearly all devices from 350px onwards.
-- Loaders & Alerts: Loaders are added when products are fetching, React Toastify is used for alerts message
-- Note:- 'Public Page'- Opens without Authentication, 'Private Page' - Opens only if user is Authenticated otherwise opens Login Page.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
----
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Tech Stack and Tools
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- React JS
-- React Router v6
-- React Context API + useReducer
-- Backend setup using [MockBee](https://mockbee.netlify.app/)
-- Used Async Await and Axios for API Request Calls.
-- Netlify for Deployment
-- Cloudinary for Hosting of Images
-- [Flaticons](https://www.flaticon.com/) for colorful icons.
-- React Toastify for alerts.
-- Razorpay Test Payments Integration.
+### `yarn eject`
 
----
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Issues & Suggestions
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- If you face any issues while using the app, then you can surely raise issue on this repo.
-- You can also give your valuable suggestions/ feedback to improve this project via Email (Mail-id in below section).
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
